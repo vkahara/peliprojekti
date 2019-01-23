@@ -17,7 +17,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     {
         juoksija = juoksija + 1;
-        if (juoksija > 50)
+        if (juoksija > 2)
         {
 
             this.transform.Translate(Input.GetAxis("Horizontal"), 0, 0);
