@@ -114,13 +114,13 @@ public class CharacterController2D : MonoBehaviour
 			if (move > 0 && !m_FacingRight)
 			{
 				// ... flip the player.
-				Flip();
+				//--------------------->Flip();
 			}
 			// Otherwise if the input is moving the player left and the player is facing right...
 			else if (move < 0 && m_FacingRight)
 			{
 				// ... flip the player.
-				Flip();
+				//------------------->Flip();
 			}
 		}
 		// If the player should jump...
@@ -133,14 +133,16 @@ public class CharacterController2D : MonoBehaviour
 	}
 
 
-	private void Flip()
-	{
-		// Switch the way the player is labelled as facing.
-		m_FacingRight = !m_FacingRight;
+    //--------------------->Kommentoitu pois ennenkuin pelaajaa seuraava kamera toimii kunnolla. kun epäkommentoit muista ottaa myös muut metodin kutsunnat<--------------------------
 
-		// Multiply the player's x local scale by -1.
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
-	}
+	//private void Flip()
+	//{
+	//	// Switch the way the player is labelled as facing.
+	//	m_FacingRight = !m_FacingRight;
+
+	//	// Multiply the player's x local scale by -1.
+	//	Vector3 theScale = transform.localScale;
+	//	theScale.x *= -1;
+	//	transform.localScale = theScale;
+	//}
 }
