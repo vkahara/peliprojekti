@@ -12,7 +12,9 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
-     
+
+ 
+
 
     // Update is called once per frame
     void Update()
@@ -37,6 +39,9 @@ public class PlayerMovement : MonoBehaviour
         //ota kolikko, Lisää tähän liittyen > CoinScript.cs ja ScoreTextScript.cs
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         //
+
+      
+
 
     }
 
