@@ -6,8 +6,9 @@ public class CoinScript : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D col)
     {
-        ScoreTextScript.coinAmount += 1;
         Destroy(gameObject);
+        ScoreTextScript.coinAmount += 1;
+        
     }
 }
 
