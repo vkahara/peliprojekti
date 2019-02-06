@@ -15,6 +15,7 @@ public class uudelleenSynny : MonoBehaviour
         {
             transform.position = playerSpawnPoint.position;
             kuolemaLaskuri++;
+            deathTextScript.deathAmount += 1;
         }
 
         if (kuolemaLaskuri >= 3)

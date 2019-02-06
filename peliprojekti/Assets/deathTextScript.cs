@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreTextScript : MonoBehaviour
+public class deathTextScript: MonoBehaviour
 {
     // Start is called before the first frame update
 
-    Text sydanCounterText;
+    Text deathCounterText;
 
-    public static int coinAmount;
-    
+    public static int deathAmount;
+
     void Start()
     {
-        sydanCounterText = GetComponent<Text>();
+        deathCounterText = GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        sydanCounterText.text = coinAmount.ToString();
-        
+        deathCounterText.text = deathAmount.ToString();
+
     }
 }
