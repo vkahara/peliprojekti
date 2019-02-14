@@ -529,7 +529,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 304830914}
-  runSpeed: 55
+  runSpeed: 45
 --- !u!212 &304830909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6238,7 +6238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 554.23, y: 271.46}
+  m_AnchoredPosition: {x: 521.3, y: 221.6}
   m_SizeDelta: {x: 39.539978, y: 45.089996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1923022735
@@ -6266,7 +6266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.11764707, g: 0.62352943, b: 0.87843144, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.26132536, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

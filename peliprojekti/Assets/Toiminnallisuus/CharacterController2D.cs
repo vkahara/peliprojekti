@@ -133,7 +133,6 @@ public class CharacterController2D : MonoBehaviour
 	}
 
 
-    //--------------------->Kommentoitu pois ennenkuin pelaajaa seuraava kamera toimii kunnolla. kun epäkommentoit muista ottaa myös muut metodin kutsunnat<--------------------------
 
     private void Flip()
     {
